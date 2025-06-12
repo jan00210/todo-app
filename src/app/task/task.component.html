@@ -1,0 +1,16 @@
+<h1> TODO APP</h1>
+
+<div class="container">
+
+    <form (ngSubmit)="createTask()">
+        <div class="row mt-5">
+            <div class="col-6">
+                <input type="text" name="newTaskDescription" class="form-control" [(ngModel)]="newTask.description">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-success" type="submit">Add Task</button>
+            </div>
+
+        </div>
+    </form>
+</div>
